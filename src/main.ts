@@ -11,7 +11,6 @@ async function bootstrap() {
   const grpcServer = await NestFactory.createMicroservice<GrpcOptions>(
     AppModule,
     {
-      bufferLogs: true,
       transport: Transport.GRPC,
       options: {
         package: ['hello'],
