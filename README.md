@@ -3,9 +3,8 @@
 - start server => `npm run start`
 - run client => `npm run client`
 
-The server never saw any request coming and client never finish
-
-Now, if we comment interceptor registration line 28 inside `src/main.ts`
+The server never saw any requests coming, and the client never finished
+Now, if we comment out the interceptor registration on line `28` inside `src/main.ts`
 
 - start server => `npm run start`
 - run client => `npm run client`
